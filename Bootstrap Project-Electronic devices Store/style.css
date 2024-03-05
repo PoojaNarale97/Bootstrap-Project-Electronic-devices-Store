@@ -1,0 +1,224 @@
+
+.panel.panel-pink
+ {
+   
+     background-color:white;
+     color:purple;
+ }
+ .panel{
+     border-radius: 0.3rem;
+     padding: 1rem;
+     margin-bottom: 1rem;
+     
+ }
+ /* styles.css */
+
+.nav-link {
+   font-size: 20px;
+}
+
+.custom-border {
+       border-right: 1px solid gray; /* You can adjust the color and width */
+   }
+
+   ul {
+       list-style-type: none;
+       padding-left: 0;
+   }
+   .custom-font-size {
+       font-size: 20px;
+   }
+    /* Star rating styling */
+   .star-rating {
+       display: inline-block;
+       font-size: 1.5em; /* Adjust the size of the stars */
+       color: #ffc107; /* Star color */
+       cursor: pointer;
+   }
+
+   .star-rating input {
+       display: none;
+   }
+
+   .star-rating label {
+       display: inline-block;
+   }
+
+   .star-rating label:before {
+       content: "\2605"; /* Unicode character for a star */
+   }
+
+   .star-rating input:checked ~ label:before {
+       content: "\2605"; /* Unicode character for a filled star */
+   } 
+   
+   
+
+ .col {
+   height: 500px;
+   width: 600px;
+   overflow: hidden;
+   border-radius: 50%;
+   
+ }
+
+ .col img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 2px solid #777; /* Set the border for the circular image */
+ }
+
+ #div-freeShipping
+ {
+   width: 200px; 
+   height: 150px;
+    background-color: #35ecf2; 
+    text-align: center; border-radius: 5px;
+    margin:10px,10px,10px,10px;
+    border:solid #35ecf2;
+
+ }
+
+ .footer-container {
+ display: flex;
+ justify-content: space-between;
+}
+
+.footer-section {
+ flex: 1;
+ padding: 10px;
+}
+
+.footer-social {
+ flex: 1;
+ text-align: center;
+ padding: 10px;
+}
+
+.footer-social {
+ text-align: center;
+}
+
+.social-icons {
+ list-style: none;
+ padding: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.social-icons li {
+ margin: 0 10px;
+}
+
+.social-icons a {
+ color: #aa66a0;
+ font-size: 24px;
+ text-decoration: none;
+}
+
+.social-icons a:hover {
+ color: #007bff; /* Change to your desired hover color */
+}
+
+footer {
+   background-color:rgb(63, 49, 77);
+}
+.footer-section,
+.footer-social {
+   color: white;
+}
+
+.footer-section h4,
+.footer-social p {
+   color: white;
+}
+
+.footer-section ul li a,
+.social-icons a {
+   color: white;
+   text-decoration: none; /* Add this line to remove the underline */
+}
+.social-icons a {
+           color: #aa66a0; /* Default color */
+           font-size: 24px;
+           text-decoration: none; /* Remove underline by default */
+       }
+
+       .social-icons a:hover {
+           color: #7e07c8; /* Change color on hover */
+           text-decoration: none; /* Remove underline on hover */
+       }
+
+
+
+       .container.text-center {
+        background-color: #f0f0f0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container.text-center .col-md-6 {
+        flex: 0 0 30%;
+        max-width: 30%;
+        margin: 10px;
+    }
+    
+    .container.text-center img.img-fluid {
+        width: 100%;
+        height: auto;
+    }
+    
+    .container.text-center p {
+        /* Add any additional styling for paragraphs in the container */
+        /* Example: */
+        font-size: 16px;
+        color: #333;
+        margin-top: 5px;
+        text-align: center;
+    }
+    
+    .nav123 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:aliceblue;
+    }
+
+    .nav123 li {
+        float: left;
+        
+    }
+
+    .nav123 li a {
+        display: block;
+        color: aliceblue;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        position: sticky;
+    }
+
+    .nav123 li a:hover {
+        background-color: rgb(10, 10, 173);
+        color: red; /* Text color changes to red on hover */
+    }
+
+
+    
+
+    /* Additional styles for your existing navbar */
+    .navbar {
+        background-color: #343a40;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    
+    
